@@ -33,8 +33,7 @@ bool verify_token(const ubyte[] K, const int token, const int sync)
 		return true;
 	
 	for (int i = 1; i <= sync; ++i)
-		if (totp(K, now, -sync) == token ||
-		    totp(K, now, sync) == token)
+		if (totp(K, now, -i) == token || totp(K, now, i) == token)
 			return true;
 	return false;
 }
