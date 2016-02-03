@@ -1,0 +1,6 @@
+name "simpleTOTPd"
+description "A minimal implementation of the TOTP and HOTP algorithms."
+copyright "Copyright © 2016, Alexei Drake"
+authors "Alexei Drake"
+targetType "library"
+license "MIT"
