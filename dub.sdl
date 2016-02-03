@@ -1,4 +1,4 @@
-name "simpleTOTPd"
+name "simpletotpd"
 description "A minimal implementation of the TOTP and HOTP algorithms."
 copyright "Copyright © 2016, Alexei Drake"
 authors "Alexei Drake"
